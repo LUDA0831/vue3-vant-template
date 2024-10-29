@@ -1,0 +1,29 @@
+/*default*/
+.transition-default-enter-active,
+.transition-default-leave-active {
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1) !important;
+}
+
+.transition-default-move {
+    transition: transform 0.4s;
+}
+
+/*expand-transition*/
+.expand-transition-enter-active,
+.expand-transition-leave-active {
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1) !important;
+}
+
+.expand-transition-move {
+    transition: transform 0.4s;
+}
+
+/*expand-x-enter*/
+.expand-x-enter-active,
+.expand-x-leave-active {
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1) !important;
+}
+
+.expand-x-move {
+    transition: transform 0.4s;
+}

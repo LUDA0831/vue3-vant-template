@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-center{
+    @apply flex justify-center items-center
+  }
+  .hover-text{
+    @apply cursor-pointer hover:text-primary
+  }
+  .hover-text1{
+    @apply cursor-pointer hover:text-primary1
+  }
+  .bg-main-gradient {
+    @apply bg-gradient-to-t from-[#ffdd00] via-[#ffc707] to-[#ffef72];
+  }
+  .bg-main-gradient-action {
+    @apply bg-gradient-to-t from-[#ff771e] via-[#ff7b1f] to-[#ffaf28] !important;
+  }
+  .bg-main-gradient-hover {
+    @apply hover:bg-gradient-to-t hover:from-[#ff771e] hover:via-[#ff7b1f] hover:to-[#ffaf28];
+  }
+  .base-btn{
+    @apply flex justify-center items-center text-white font-bold min-w-[70px] rounded cursor-pointer bg-gradient-to-t from-primary to-[#d0f0ff];
+  }
+  .btn-hover-base{
+    @apply bg-main-gradient-action text-white cursor-pointer
+  }
+}

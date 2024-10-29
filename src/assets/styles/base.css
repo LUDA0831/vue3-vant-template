@@ -1,0 +1,22 @@
+:root{
+    font-size: var(--van-font-size-md);
+}
+.van-theme-dark body {
+    background-color: #1c2534;
+    color: var(--van-text-color);
+}
+
+.van-theme-light body {
+    background-color: var(--van-gray-1);
+    color: var(--van-gray-8);
+}
+
+#app {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
